@@ -15,6 +15,7 @@ final class Acronym: Codable {
 extension Acronym: Content {}
 extension Acronym: PostgreSQLModel {}
 extension Acronym: Migration {}
+extension Acronym: Parameter {}
 //extension Acronym: Model {
 //    typealias Database = SQLiteDatabase
 //    typealias ID = Int
