@@ -11,9 +11,11 @@ public func routes(_ router: Router) throws {
     // Controller configuration
     let acronymsController = AcronymsController()
     let usersController = UsersController()
+    let categoriesController = CategoriesController()
     
     try router.register(collection: acronymsController)
     try router.register(collection: usersController)
+    try router.register(collection: categoriesController)
     
     // Example of configuring a controller
 //    let todoController = TodoController()
